@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: #1C1C1C;
    
 }
 
@@ -40,6 +40,8 @@ width: 5px;
     height: 870px;
     width: 450px;
     border-radius: 20px;
+    box-shadow:  -33px 33px 66px #434245,
+             33px -33px 66px #abaab1;
    
 
 }
@@ -62,6 +64,8 @@ section{
     display: flex;
     justify-content: end;
     margin: 10px;
+    overflow:auto;
+
 }
     
 
@@ -78,6 +82,7 @@ button{
     font-size: 40px;
     margin:6px;
     cursor: pointer;
+    border-radius: 24px;
    
     
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: whitesmoke;
    
 }
 
@@ -24,7 +24,7 @@ width: 5px;
     justify-content: end;
     background-color:black;
    text-decoration: none;
-    color: white;
+    color: black;
    font-size: 0px;
    height: 30px;
    
@@ -40,6 +40,8 @@ width: 5px;
     height: 870px;
     width: 450px;
     border-radius: 20px;
+    box-shadow:  -33px 33px 66px #434245,
+             33px -33px 66px #abaab1;
    
 
 }
@@ -62,6 +64,8 @@ section{
     display: flex;
     justify-content: end;
     margin: 10px;
+    overflow:auto;
+
 }
     
 
@@ -78,6 +82,7 @@ button{
     font-size: 40px;
     margin:6px;
     cursor: pointer;
+    border-radius: 24px;
    
     
 }
@@ -99,111 +104,7 @@ button{
 }
 .botao-cinza{
     background-color:#A9A9A9;
-    color: whitebody{
-        background-color: black;
-        overflow: hidden;
-    }
-    
-    .cor{
-        margin: 0px;
-        text-align: end;
-        background-color: white;
-        height: 1px;
-        
-        
-        
-        }
-        
-        
-        .cor a {
-           
-            background-color:white;
-           text-decoration: none;
-            color: black;
-           font-size: 150px;
-          
-           
-           
-        }
-        
-    
-    .caixa{
-        background-color: white;
-        padding: 20px;
-        height: 855px;
-        width: 450px;
-        border-radius: 20px;
-       
-    
-    }
-    
-    
-    section{
-        padding: 5px 680px;
-       
-        
-        
-    }
-    .mostrador{
-        padding: 100px 0px 0px 0px;
-        background-color: white;
-        width: 400px;
-        height: 135px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size:100px;
-        color: black;
-        display: flex;
-        justify-content: end;
-        margin: 10px;
-    }
-        
-    
-      
-    
-    button{
-        
-        height: 100px;
-        width: 100px;
-        border-style: none;
-        background-color: #4F4F4F;
-        color: black;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 40px;
-        margin:6px;
-        cursor: pointer;
-       
-        
-    }
-    
-    .botao-laranja{
-        background-color: orange;
-        transition: color 0.2s;
-        
-    
-    }
-    .botao-laranja:hover{
-        background-color: #F0E68C;
-    }
-    .botao-grande{
-        width: 212px;
-        height: 100px;
-       
-    
-    }
-    .botao-cinza{
-        background-color:#A9A9A9;
-        color: white;
-    }
-    section div{
-        padding-top:6px;
-        
-    }
-    div button{
-        transition:color 0.2s;
-    }
-    div button:hover{
-        background-color: lightgray;
-    };
+    color: white;
 }
 section div{
     padding-top:6px;
